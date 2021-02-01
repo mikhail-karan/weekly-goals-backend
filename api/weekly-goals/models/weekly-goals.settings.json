@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "weekly_goals",
+  "info": {
+    "name": "Weekly Goals",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "weeklyGoal": {
+      "type": "richtext"
+    },
+    "comments": {
+      "collection": "comment",
+      "via": "weekly_goal"
+    },
+    "User": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "User"
+    }
+  }
+}

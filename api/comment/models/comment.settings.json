@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "comments",
+  "info": {
+    "name": "Comment",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "comment": {
+      "type": "richtext"
+    },
+    "weekly_goal": {
+      "via": "comments",
+      "model": "weekly-goals"
+    },
+    "users_permissions_user": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "comments"
+    },
+    "Done": {
+      "type": "boolean"
+    }
+  }
+}

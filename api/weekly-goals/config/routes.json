@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/weekly-goals",
+      "handler": "weekly-goals.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/weekly-goals/count",
+      "handler": "weekly-goals.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/weekly-goals/:id",
+      "handler": "weekly-goals.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/weekly-goals",
+      "handler": "weekly-goals.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/weekly-goals/:id",
+      "handler": "weekly-goals.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/weekly-goals/:id",
+      "handler": "weekly-goals.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
