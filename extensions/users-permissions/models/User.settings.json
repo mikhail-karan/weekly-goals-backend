@@ -60,12 +60,12 @@
       "configurable": false
     },
     "comments": {
-      "via": "users_permissions_user",
-      "collection": "comment"
+      "collection": "comment",
+      "via": "users_permissions_user"
     },
     "User": {
-      "via": "User",
-      "collection": "weekly-goals"
+      "collection": "weekly-goals",
+      "via": "User"
     }
   }
 }
