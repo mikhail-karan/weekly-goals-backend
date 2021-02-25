@@ -19,9 +19,12 @@
       "via": "weekly_goal"
     },
     "User": {
-      "via": "User",
       "plugin": "users-permissions",
-      "model": "user"
+      "model": "user",
+      "via": "User"
+    },
+    "done": {
+      "type": "boolean"
     }
   }
 }

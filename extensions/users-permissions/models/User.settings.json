@@ -64,8 +64,8 @@
       "via": "users_permissions_user"
     },
     "User": {
-      "collection": "weekly-goals",
-      "via": "User"
+      "via": "User",
+      "collection": "weekly-goals"
     }
   }
 }
