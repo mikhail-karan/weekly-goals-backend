@@ -14,17 +14,16 @@
     "weeklyGoal": {
       "type": "richtext"
     },
-    "comments": {
-      "collection": "comment",
-      "via": "weekly_goal"
-    },
     "User": {
       "plugin": "users-permissions",
       "model": "user",
       "via": "User"
     },
-    "done": {
+    "Done": {
       "type": "boolean"
+    },
+    "Encourage": {
+      "type": "integer"
     }
   }
 }

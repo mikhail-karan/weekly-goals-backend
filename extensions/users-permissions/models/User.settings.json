@@ -59,10 +59,6 @@
       "plugin": "users-permissions",
       "configurable": false
     },
-    "comments": {
-      "collection": "comment",
-      "via": "users_permissions_user"
-    },
     "User": {
       "via": "User",
       "collection": "weekly-goals"
