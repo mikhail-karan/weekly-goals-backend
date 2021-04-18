@@ -62,6 +62,9 @@
     "User": {
       "via": "User",
       "collection": "weekly-goals"
+    },
+    "GoalsCompleted": {
+      "type": "integer"
     }
   }
 }

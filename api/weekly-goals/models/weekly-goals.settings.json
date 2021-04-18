@@ -22,8 +22,10 @@
     "Done": {
       "type": "boolean"
     },
-    "Encourage": {
-      "type": "integer"
+    "encouragedUsers": {
+      "columnName": "Encouraged_users",
+      "plugin": "users-permissions",
+      "collection": "user"
     }
   }
 }
