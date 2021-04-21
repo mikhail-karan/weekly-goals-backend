@@ -15,9 +15,9 @@
       "type": "richtext"
     },
     "User": {
+      "via": "User",
       "plugin": "users-permissions",
-      "model": "user",
-      "via": "User"
+      "model": "user"
     },
     "Done": {
       "type": "boolean"

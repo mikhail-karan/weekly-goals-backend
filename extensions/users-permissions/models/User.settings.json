@@ -60,11 +60,14 @@
       "configurable": false
     },
     "User": {
-      "via": "User",
-      "collection": "weekly-goals"
+      "collection": "weekly-goals",
+      "via": "User"
     },
     "GoalsCompleted": {
       "type": "integer"
+    },
+    "Newsletter": {
+      "type": "boolean"
     }
   }
 }
