@@ -60,8 +60,8 @@
       "configurable": false
     },
     "User": {
-      "collection": "weekly-goals",
-      "via": "User"
+      "via": "User",
+      "collection": "weekly-goals"
     },
     "GoalsCompleted": {
       "type": "integer"

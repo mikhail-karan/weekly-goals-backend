@@ -15,9 +15,9 @@
       "type": "richtext"
     },
     "User": {
-      "via": "User",
       "plugin": "users-permissions",
-      "model": "user"
+      "model": "user",
+      "via": "User"
     },
     "Done": {
       "type": "boolean"
@@ -26,6 +26,9 @@
       "columnName": "Encouraged_users",
       "plugin": "users-permissions",
       "collection": "user"
+    },
+    "Created": {
+      "type": "datetime"
     }
   }
 }
