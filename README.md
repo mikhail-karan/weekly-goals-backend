@@ -1,7 +1,7 @@
 
 # Weekly Growth Goals Backend
 
-A backend running on Strapi which supports the [HTML All The Things](www.htmlallthethings.com) Weekly Growth Goals Frontend. This provides API's for goal creation, user creation and data querying. 
+A backend running on Strapi which supports the [HTML All The Things](https://www.htmlallthethings.com/) Weekly Growth Goals Frontend. This provides API's for goal creation, user creation and data querying. 
 
   
 ## Demo
