@@ -10,6 +10,14 @@
     },
     {
       "method": "GET",
+      "path": "/active-goals",
+      "handler": "weekly-goals.activeGoals",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
       "path": "/weekly-goals/count",
       "handler": "weekly-goals.count",
       "config": {
